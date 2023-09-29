@@ -129,8 +129,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\DeneyimController.cs" />
     <Compile Include="Controllers\HakkımdaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\YetenekController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -175,7 +177,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\DeneyimRepository.cs" />
+    <Compile Include="Repository\EgitimRepository.cs" />
     <Compile Include="Repository\GenericRepository.cs" />
+    <Compile Include="Repository\HakkimdaRepository.cs" />
+    <Compile Include="Repository\HobiRepository.cs" />
+    <Compile Include="Repository\IletisimRepository.cs" />
+    <Compile Include="Repository\SertifikaRepository.cs" />
+    <Compile Include="Repository\YetenekReopsitory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminLTE-3.0.4\.gitignore" />
@@ -2350,6 +2358,10 @@
     <Content Include="Views\Default\Sertifikalar.cshtml" />
     <Content Include="Views\Default\Iletişim.cshtml" />
     <Content Include="Views\Hakkımda\Index.cshtml" />
+    <Content Include="Views\Deneyim\Index.cshtml" />
+    <Content Include="Views\Deneyim\DeneyimEkle.cshtml" />
+    <Content Include="Views\Deneyim\DeneyimGetir.cshtml" />
+    <Content Include="Views\Yetenek\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
