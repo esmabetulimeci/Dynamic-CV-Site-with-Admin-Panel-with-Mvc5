@@ -130,8 +130,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DeneyimController.cs" />
+    <Compile Include="Controllers\EgitimController.cs" />
     <Compile Include="Controllers\HakkımdaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IletisimController.cs" />
+    <Compile Include="Controllers\SertifikaController.cs" />
     <Compile Include="Controllers\YetenekController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -2362,6 +2365,15 @@
     <Content Include="Views\Deneyim\DeneyimEkle.cshtml" />
     <Content Include="Views\Deneyim\DeneyimGetir.cshtml" />
     <Content Include="Views\Yetenek\Index.cshtml" />
+    <Content Include="Views\Yetenek\YeniYetenek.cshtml" />
+    <Content Include="Views\Yetenek\YetenekGüncelle.cshtml" />
+    <Content Include="Views\Egitim\Index.cshtml" />
+    <Content Include="Views\Egitim\EgitimEkle.cshtml" />
+    <Content Include="Views\Egitim\EgitimDüzenle.cshtml" />
+    <Content Include="Views\Sertifika\Index.cshtml" />
+    <Content Include="Views\Sertifika\SertifikaDüzenle.cshtml" />
+    <Content Include="Views\Sertifika\SertifikaEkle.cshtml" />
+    <Content Include="Views\Iletisim\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

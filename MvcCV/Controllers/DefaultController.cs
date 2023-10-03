@@ -13,11 +13,11 @@ namespace MvcCV.Controllers
         DbCVEntities db = new DbCVEntities();
         public ActionResult Index()
         {
-            var degerler = db.TblHakkimda.ToList();
-            return View(degerler);
+            var hakkimda = db.TblHakkimda.ToList();
+            return View(hakkimda);
         }
 
-        public PartialViewResult Deneyim()
+        public PartialViewResult Deneyim() //PartialViewResult büyük görünümleri küçük bileşenlere ayırır.
         {
             var deneyimler = db.TblDeneyimler.ToList();
             return PartialView(deneyimler);
