@@ -16,7 +16,7 @@ namespace MvcCV.Controllers
         public ActionResult Index()
         {
             var iletisim = iletisimrepo.List();
-            return View();
+            return View(iletisim);
         }
     }
 }
