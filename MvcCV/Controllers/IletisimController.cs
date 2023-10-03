@@ -18,5 +18,12 @@ namespace MvcCV.Controllers
             var iletisim = iletisimrepo.List();
             return View(iletisim);
         }
+
+        public ActionResult MesajSil(int id)
+        {
+            var mesaj = iletisimrepo.Find(x => x.ID == id);
+            iletisimrepo.TDelete(mesaj);
+            return RedirectToAction("Index");
+        }
     }
 }
