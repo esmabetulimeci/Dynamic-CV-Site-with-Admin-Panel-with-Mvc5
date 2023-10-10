@@ -14,6 +14,8 @@ namespace MvcCV.Controllers
         DbCVEntities db = new DbCVEntities();
         GenericRepository<TblEgitim> egitimrepo = new GenericRepository<TblEgitim>();
         // GET: Egitim
+
+        [Authorize]
         public ActionResult Index()
         {
             var egitim = egitimrepo.List();

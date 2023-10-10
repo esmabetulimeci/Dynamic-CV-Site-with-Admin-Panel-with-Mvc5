@@ -7,6 +7,7 @@ using MvcCV.Models.Entity;
 
 namespace MvcCV.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         // GET: Default
@@ -15,6 +16,12 @@ namespace MvcCV.Controllers
         {
             var hakkimda = db.TblHakkimda.ToList();
             return View(hakkimda);
+        }
+
+        public ActionResult SosyalMedya()
+        {
+            var sosylmedya = db.TblSosyalMedya.Where(x => x.Durum == true).ToList();
+            return PartialView(sosylmedya);
         }
 
         public PartialViewResult Deneyim() //PartialViewResult büyük görünümleri küçük bileşenlere ayırır.

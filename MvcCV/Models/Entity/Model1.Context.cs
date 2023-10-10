@@ -33,5 +33,6 @@ namespace MvcCV.Models.Entity
         public virtual DbSet<TblIletisim> TblIletisim { get; set; }
         public virtual DbSet<TblSertifikalarım> TblSertifikalarım { get; set; }
         public virtual DbSet<TblYetenek> TblYetenek { get; set; }
+        public virtual DbSet<TblSosyalMedya> TblSosyalMedya { get; set; }
     }
 }
