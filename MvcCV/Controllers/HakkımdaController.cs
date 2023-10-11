@@ -29,6 +29,7 @@ namespace MvcCV.Controllers
             hakkimda.Mail=t.Mail;
             hakkimda.Telefon = t.Telefon;
             hakkimda.Resim=t.Resim;
+            hakkimda.Aciklama=t.Aciklama;   
             hakkimdarepo.TUpdate(hakkimda);
             return RedirectToAction("Index");
         }

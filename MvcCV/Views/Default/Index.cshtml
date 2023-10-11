@@ -21,9 +21,9 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="~/startbootstrap-resume-gh-pages/css/styles.css" rel="stylesheet" />
 </head>
-<body id="page-top">
+<body style="background-color: #d1d8e0" id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <nav style="background: linear-gradient(to right, #bdc3c7, #2c3e50);" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Clarence Taylor</span>
             @foreach (var item in Model)
@@ -46,23 +46,23 @@
         </div>
     </nav>
     <!-- Page Content-->
-    <div class="container-fluid p-0">
+    <div style="color:black" class="container-fluid p-0">
         <!-- About-->
         @foreach (var x in Model)
         {
 
 
-            <section class="resume-section" id="about">
+            <section style="color:black;" class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         @x.Ad
-                        <span class="text-primary">@x.Soyad</span>
+                        @x.Soyad
                     </h1>
-                    <div class="subheading mb-5">
-                        @x.Adres . @x.Telefon
-                        <a href="@x.Mail">@x.Mail</a>
+                    <div  class="subheading mb-5">
+                        @x.Adres | @x.Telefon
+                        <a style="color:white; margin-left:15px;" href="@x.Mail">@x.Mail</a>
                     </div>
-                    <p class="lead mb-5">@x.Aciklama.</p>
+                    <p class="lead mb-5">@x.Aciklama</p>
                     @Html.Action("SosyalMedya")
                 </div>
             </section>
