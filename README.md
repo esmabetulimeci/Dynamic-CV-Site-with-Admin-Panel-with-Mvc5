@@ -1,3 +1,4 @@
+
 <h1 align="center" id="title">Dynamic CV Website Generator</h1>
 
 <p align="center"><img src="https://socialify.git.ci/esmabetulimeci/Dynamic-CV-Site-with-Admin-Panel-with-Mvc5/image?description=1&amp;font=Raleway&amp;language=1&amp;logo=https%3A%2F%2Fwww.svgrepo.com%2Fdownload%2F190016%2Fcurriculum-resume.svg&amp;name=1&amp;owner=1&amp;pattern=Signal&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
@@ -24,14 +25,14 @@ Here're some of the project's best features:
 *   A login page enables user authentication.
 *   Generates an automatic website based on the entered information.
 *   From the user panel it's possible to update:
-*   Profile photo
-*   About Me information
-*   Educational background
-*   Work experience
-*   Hobbies
-*   Skills and certifications
-*   Contact information
-*   Social media account details
+	  *   Profile photo
+	  *   About Me information
+	  *   Educational background
+	  *   Work experience
+	  *   Hobbies
+	  *   Skills and certifications
+	  *   Contact information
+	  *   Social media account details
 
 <h2>🛠️ Installation Steps:</h2>
 
